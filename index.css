@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   
+}
+:root {
+     --bg-header: #000000; /*for backgrond and header card */
+     --bg-card-hero-section:#EBEAE6; /*background for hero section &*/
+     --star-color:#FACA15;
+     --btn-color:#D63501;
+     --btn-color-hover:#C43000;
+     --title-color:#454040;
+     --white-color-text:#FFFFFF;
+     --bg-color-3:#C3DDFD;
+
+
+}
+.prodcut_price{
+    color: var(--btn-color);
+}
+.cardd{
+    a{
+        background-color: var(--btn-color);
+    }
+    a:hover{
+        background-color: var(--btn-color-hover);
+    }
+}
+
+/* end header  */
+header {
+    section{
+        background: #000000 !important;
+    }
+    nav{
+        color: var(--white-color-text) ;
+        .menu_navbar{
+            background: var(--bg-header)!important;
+        }
+        .text-white{
+            color:var(--white-color-text);
+
+        }
+    }
+
+
+}
+/* end header  */
+
+/* start main */
+main{
+    margin: 0 0 38px 0;
+    .bg_hero_section{
+        padding: 38px 0 38px 0;
+        background:var(--bg-card-hero-section);
+        h2{
+            color: var(--btn-color);
+        }
+        a{
+            background-color: var(--btn-color);
+        }
+        a:hover{
+            background-color: var(--btn-color-hover);
+        }
+    }
+    .trending_categories{
+        .card{
+            border: 5px;
+            border: 1px solid var(--btn-color);
+        }
+        .card:hover{
+            border: 5px;
+            border-radius: 5px;
+            border: 2px solid var(--btn-color);
+            img{
+                transform: scale(1.1);
+                transition: 0.3s;
+            }
+        }
+    }  
+}
+.two-products{
+    .card{
+        background-color: var(--bg-card-hero-section);
+    }
+    a{
+        background-color: var(--btn-color);
+    }
+    a:hover{
+        background-color: var(--btn-color-hover);
+    }
+       
+}
+.botton_carosel {
+    h3{
+        color: var(--btn-color);
+    }
+    h2{
+        color: var(--white-color-text);
+    }
+    p{
+        color: var(--bg-card-hero-section);
+    }
+    a{
+        background-color: var(--btn-color);
+    }
+    a:hover{
+        background-color: var(--btn-color-hover);
+    }
+}
+/* end main */
+
+/* start footer */
+footer {
+    h2{
+        color: #FFFFFF !important;
+    }
+    span{
+        color: #FFFFFF !important;
+
+    }
+    .set_bg{
+        background: #030406;
+    }
+    li i{
+        color: #FFFFFF;
+    }
+    }
+
+
+
+
+/* end  footer */
