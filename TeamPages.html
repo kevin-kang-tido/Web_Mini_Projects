@@ -12,11 +12,11 @@
 </head>
 <body>
     <!-- start nav bars -->
-    <header>
-        <section class="w-full mx-auto p-2">
-        <nav class="border-gray-200 dark:bg-gray-900">
+    <header class="">
+        <section class="w-full mx-auto p-2 sticky top-0">
+        <nav class="border-gray-200 dark:bg-gray-900 sticky top-0 w-full">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="./index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="./img/big-logo-removebg-preview.png" class="h-8" alt="Logo" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">KHMER 25</span>
             </a>
@@ -63,23 +63,24 @@
     <!-- end nav bars -->
 <main> 
     <!-- // our story start  -->
-    <section class="contianer mx-auto p-[40px] bg-blue-100 h-[500px] w-[1191px] m-4">
-        <div class="hold flex items-center">
-            <div class="w-1/2">
-                <h2 class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-3xl dark:text-white ml-[38px]">Our Story</h2>
+    <section class="contianer mx-auto p-[40px] bg-blue-100 h-auto w-auto m-4">
+        <!-- <div class="hold flex items-center justify-cente md:cols-2"> -->
+        <div class="grid md:grid-cols-2 gap-4 ">
+            <div class="order-1">
+                <h2 class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-3xl dark:text-blue-800 ml-[38px]">Our Story</h2>
                 <p class="text-[9px] md:text-base"> 
                     Empowering your gaming experience, our dedicated team at Khmer 25 is excited to unveil our cutting-edge e-commerce website. Dive into a world where innovation meets convenience, featuring a curated selection of computer, phone, and game controller accessories. <br> <br>
                     We're committed to providing enthusiasts with seamless online shopping, ensuring you stay ahead in the gaming realm. Explore the possibilities, level up your gear, and redefine your gaming journey with us.
                 </p>
             </div>
-            <div class="w-1/2">
-                <img class="w-full rounded-5" src="https://i.pinimg.com/564x/c8/a6/6b/c8a66bb1bf09eac97d51292ebc89c448.jpg" alt="">
+            <div class="order-2">
+                <img class="w-full rounded-5 max-w-lg " src="https://i.pinimg.com/564x/c8/a6/6b/c8a66bb1bf09eac97d51292ebc89c448.jpg" alt="">
             </div>
         </div>
     </section>
     <!-- // our story end  -->
     <!-- // start our part  -->
-    <section class="container mx-auto px-[50px]">
+    <section class="container mx-auto px-[50px] justify-center items-center">
         <h2 class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-3xl dark:text-white ml-[38px]">Our Team</h2>
         <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
             <!-- card one  -->
@@ -295,21 +296,21 @@
                 <div class="bg-gray-700 rounded-full" style="background: #454040;">
                     <i class="fa-solid fa-truck-fast text-3xl bg-blue-600 rounded-full m-2 p-3 text-white" style="background-color:#000000; "></i>
                 </div>
-                <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white m-2">FREE AND FAST DELIVERY</h5>
+                <h5 class="mb-1 text-xl font-medium text-gray-900  m-2">FREE AND FAST DELIVERY</h5>
                 <span class="text-sm text-gray-500 dark:text-gray-400">Free delivery for all orders over $140</span>
             </div>
             <div class="flex flex-col items-center">
                 <div class="bg-gray-700 rounded-full" style="background: #454040;">
                     <i class="fa-solid fa-headphones text-3xl bg-blue-600 rounded-full m-2 p-3 text-white" style="background-color:#000000; "></i>
                 </div>
-                <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white m-2">24/7 CUSTOMER SERVICE</h5>
+                <h5 class="mb-1 text-xl font-medium text-gray-900 m-2">24/7 CUSTOMER SERVICE</h5>
                 <span class="text-sm text-gray-500 dark:text-gray-400">Friendly 24/7 customer support</span>
             </div>
             <div class="flex flex-col items-center">
                 <div class="bg-gray-700 rounded-full" style="background: #454040;">
                     <i class="fa-solid fa-shield text-3xl bg-blue-600 rounded-full m-2 p-3 text-white" style="background-color:#000000; "></i>
                 </div>
-                <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white m-2">MONEY BACK GUARANTEE</h5>
+                <h5 class="mb-1 text-xl font-medium text-gray-900  m-2">MONEY BACK GUARANTEE</h5>
                 <span class="text-sm text-gray-500 dark:text-gray-400">We reurn money within 30 days</span>
             </div>
         </div>

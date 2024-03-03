@@ -18,6 +18,9 @@
 
 
 }
+html, body {
+    height: 100%;
+}
 .prodcut_price{
     color: var(--btn-color);
 }
